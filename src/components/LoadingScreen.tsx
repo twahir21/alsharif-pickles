@@ -9,7 +9,7 @@ export default function LoadingScreen({ onComplete }: { onComplete?: () => void 
 
   useEffect(() => {
     // Check if user has already seen the intro or prefers reduced motion
-    const alreadySeen = sessionStorage.getItem("alsharif_intro_seen");
+    const alreadySeen = sessionStorage.getItem("AL-SHARRYF_intro_seen");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     if (alreadySeen || reducedMotion) {
@@ -30,7 +30,7 @@ export default function LoadingScreen({ onComplete }: { onComplete?: () => void 
       if (pct >= 100) {
         clearInterval(interval);
         setTimeout(() => {
-          sessionStorage.setItem("alsharif_intro_seen", "true");
+          sessionStorage.setItem("AL-SHARRYF_intro_seen", "true");
           setVisible(false);
           onComplete?.();
         }, 350);
@@ -41,7 +41,7 @@ export default function LoadingScreen({ onComplete }: { onComplete?: () => void 
   }, [onComplete]);
 
   const handleSkip = () => {
-    sessionStorage.setItem("alsharif_intro_seen", "true");
+    sessionStorage.setItem("AL-SHARRYF_intro_seen", "true");
     setVisible(false);
     onComplete?.();
   };
@@ -54,7 +54,7 @@ export default function LoadingScreen({ onComplete }: { onComplete?: () => void 
           exit={{ y: "-100%", transition: { duration: 0.65, ease: [0.76, 0, 0.24, 1] } }}
           className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-cream grain"
           role="status"
-          aria-label="Loading Alsharif Pickles"
+          aria-label="Loading AL-SHARRYF Pickles"
         >
           {/* Skip Button */}
           <button
@@ -177,7 +177,7 @@ export default function LoadingScreen({ onComplete }: { onComplete?: () => void 
               className="mt-6 text-center"
             >
               <h2 className="font-display text-2xl font-black tracking-tight text-leaf">
-                Alsharif <span className="text-chili">Pickles</span>
+                AL-SHARRYF <span className="text-chili">Pickles</span>
               </h2>
               <p className="mt-1 text-xs font-semibold uppercase tracking-[0.2em] text-ink/60">
                 The best appetite is at home

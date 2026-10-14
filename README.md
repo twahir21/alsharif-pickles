@@ -1,4 +1,4 @@
-# Alsharif Pickles
+# AL-SHARRYF Pickles
 
 Next.js (App Router) + Bun + Tailwind CSS v4, with Framer Motion, GSAP (ScrollTrigger) and Lenis smooth scrolling.
 

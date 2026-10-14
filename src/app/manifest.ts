@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Alsharif Pickles",
-    short_name: "Alsharif",
+    name: "AL-SHARRYF Pickles",
+    short_name: "AL-SHARRYF",
     description: "Handmade pickles and chilli sauces from Tanzania.",
     start_url: "/",
     display: "standalone",

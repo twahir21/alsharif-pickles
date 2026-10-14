@@ -36,14 +36,14 @@ export default function MobileOrderBar() {
               </span>
               <div>
                 <p className="font-display text-xs font-bold leading-none text-cream">
-                  Alsharif Pickles
+                  AL-SHARRYF Pickles
                 </p>
                 <p className="text-[11px] text-cream/75 leading-tight">Fresh handmade delivery</p>
               </div>
             </div>
 
             <a
-              href={waLink("Hello Alsharif Pickles, I would like to place an order.")}
+              href={waLink("Hello AL-SHARRYF Pickles, I would like to place an order.")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-chili px-4 py-2 text-xs font-bold text-cream shadow-md transition active:scale-95"

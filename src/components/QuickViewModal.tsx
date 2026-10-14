@@ -185,7 +185,7 @@ export default function QuickViewModal({ product, onClose }: QuickViewModalProps
 
                 <a
                   href={waLink(
-                    `Hello Alsharif Pickles, I would like to order: ${product.name} ${currentSize.ml}ml (${formatTZS(currentSize.price)}).`
+                    `Hello AL-SHARRYF Pickles, I would like to order: ${product.name} ${currentSize.ml}ml (${formatTZS(currentSize.price)}).`
                   )}
                   target="_blank"
                   rel="noopener noreferrer"

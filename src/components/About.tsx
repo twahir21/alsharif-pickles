@@ -130,7 +130,7 @@ export default function About() {
           </div>
 
           <p className="mt-5 text-lg leading-relaxed text-cream/80">
-            Alsharif Pickles started in a family kitchen with one belief: the best appetite is
+            AL-SHARRYF Pickles started in a family kitchen with one belief: the best appetite is
             at home. We pickle and blend the rich flavours of the Swahili coast, from sour ndimu and
             mbirimbi to sweet ukwaju and nanasi, into handcrafted recipes that lift everyday meals.
           </p>

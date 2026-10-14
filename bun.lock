@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "alsharif-pickles",
+      "name": "AL-SHARRYF-pickles",
       "dependencies": {
         "framer-motion": "^12.0.0",
         "gsap": "^3.12.5",

@@ -193,7 +193,7 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
                 transition={{ duration: 0.4 }}
                 onClick={handleOrderClick}
                 href={waLink(
-                  `Hello Alsharif Pickles, I would like to order: ${product.name} ${currentSize.ml}ml (${formatTZS(currentSize.price)}).`
+                  `Hello AL-SHARRYF Pickles, I would like to order: ${product.name} ${currentSize.ml}ml (${formatTZS(currentSize.price)}).`
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

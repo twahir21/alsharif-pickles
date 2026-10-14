@@ -157,7 +157,7 @@ export default function Hero() {
 
             <Magnetic>
               <a
-                href={waLink("Hello Alsharif Pickles, I would like to place an order.")}
+                href={waLink("Hello AL-SHARRYF Pickles, I would like to place an order.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-cta inline-flex items-center gap-2 rounded-full border-2 border-leaf px-8 py-4 font-bold text-leaf transition hover:bg-leaf hover:text-cream active:scale-95"
@@ -222,7 +222,7 @@ export default function Hero() {
           <div className="h-img-inner relative z-10 w-full overflow-hidden rounded-[2.5rem] bg-white shadow-2xl shadow-leaf/20 ring-1 ring-black/5">
             <Image
               src="/images/sauces-range.jpg"
-              alt="Alsharif Pickles chilli sauces: Ukwaju tamarind, Embe mango, Nanasi pineapple and Mbirimbi"
+              alt="AL-SHARRYF Pickles chilli sauces: Ukwaju tamarind, Embe mango, Nanasi pineapple and Mbirimbi"
               width={1080}
               height={808}
               priority

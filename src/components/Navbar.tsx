@@ -58,7 +58,7 @@ export default function Navbar() {
             A
           </span>
           <span className="font-display text-xl font-black tracking-tight text-leaf">
-            Alsharif <span className="text-chili">Pickles</span>
+            AL-SHARRYF <span className="text-chili">Pickles</span>
           </span>
         </a>
 
@@ -93,7 +93,7 @@ export default function Navbar() {
           <li className="ml-4">
             <Magnetic>
               <a
-                href={waLink("Hello Alsharif Pickles, I would like to place an order.")}
+                href={waLink("Hello AL-SHARRYF Pickles, I would like to place an order.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-leaf px-5 py-2.5 text-sm font-bold text-cream shadow-md transition hover:bg-leaf-2 active:scale-95"
@@ -145,7 +145,7 @@ export default function Navbar() {
               })}
               <li className="pt-5">
                 <a
-                  href={waLink("Hello Alsharif Pickles, I would like to place an order.")}
+                  href={waLink("Hello AL-SHARRYF Pickles, I would like to place an order.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-full bg-chili py-3.5 font-bold text-cream shadow-lg"

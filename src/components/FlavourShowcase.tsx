@@ -320,7 +320,7 @@ export default function FlavourShowcase() {
                 <div className="mt-6 pt-4 border-t border-white/15">
                   <a
                     href={waLink(
-                      `Hello Alsharif Pickles, I would like to order the signature ${p.name} (${formatTZS(size.price)}).`
+                      `Hello AL-SHARRYF Pickles, I would like to order the signature ${p.name} (${formatTZS(size.price)}).`
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -349,7 +349,7 @@ export default function FlavourShowcase() {
                 <div className="relative h-60 w-52 sm:h-72 sm:w-60 overflow-hidden rounded-2xl shadow-xl ring-1 ring-white/20">
                   <Image
                     src="/images/jars-trio.jpg"
-                    alt="Alsharif Pickles tasting trio jars"
+                    alt="AL-SHARRYF Pickles tasting trio jars"
                     fill
                     sizes="260px"
                     className="object-cover"
@@ -385,7 +385,7 @@ export default function FlavourShowcase() {
             <div className="mt-6 pt-4 border-t border-white/15 space-y-2.5">
               <a
                 href={waLink(
-                  "Hello Alsharif Pickles, I would like to order a Custom Tasting Trio Box (3 jars of my choice)."
+                  "Hello AL-SHARRYF Pickles, I would like to order a Custom Tasting Trio Box (3 jars of my choice)."
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -622,7 +622,7 @@ export default function FlavourShowcase() {
                       <Magnetic>
                         <a
                           href={waLink(
-                            `Hello Alsharif Pickles, I would like to order the signature ${p.name} (${formatTZS(size.price)}).`
+                            `Hello AL-SHARRYF Pickles, I would like to order the signature ${p.name} (${formatTZS(size.price)}).`
                           )}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -647,7 +647,7 @@ export default function FlavourShowcase() {
               className="pointer-events-none absolute inset-0 flex select-none items-center justify-center overflow-hidden font-display text-[15vw] font-black uppercase tracking-tighter opacity-10 text-cream"
               aria-hidden="true"
             >
-              ALSHARIF
+              AL-SHARRYF
             </div>
 
             <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
@@ -658,7 +658,7 @@ export default function FlavourShowcase() {
                   <div className="relative h-full w-full overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-white/20">
                     <Image
                       src="/images/jars-trio.jpg"
-                      alt="Alsharif Pickles complete jars lineup"
+                      alt="AL-SHARRYF Pickles complete jars lineup"
                       fill
                       sizes="480px"
                       className="object-cover transition-transform duration-700 hover:scale-105"
@@ -712,7 +712,7 @@ export default function FlavourShowcase() {
                   <Magnetic>
                     <a
                       href={waLink(
-                        "Hello Alsharif Pickles, I would like to order a Custom Tasting Trio Box (3 jars of my choice)."
+                        "Hello AL-SHARRYF Pickles, I would like to order a Custom Tasting Trio Box (3 jars of my choice)."
                       )}
                       target="_blank"
                       rel="noopener noreferrer"

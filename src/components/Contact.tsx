@@ -12,7 +12,7 @@ export default function Contact() {
     { icon: FaPhone, label: SITE.phonesDisplay[1], href: `tel:${SITE.phones[1]}` },
     { icon: FaEnvelope, label: SITE.email, href: `mailto:${SITE.email}` },
     { icon: FaInstagram, label: `@${SITE.instagram}`, href: `https://www.instagram.com/${SITE.instagram}` },
-    { icon: FaTiktok, label: `@${SITE.tiktok}`, href: `https://www.tiktok.com/@${SITE.tiktok}` },
+    // { icon: FaTiktok, label: `@${SITE.tiktok}`, href: `https://www.tiktok.com/@${SITE.tiktok}` },
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function Contact() {
                   <div className="mt-8">
                     <Magnetic>
                       <a
-                        href={waLink("Hello Alsharif Pickles, I would like to place an order.")}
+                        href={waLink("Hello AL-SHARRYF Pickles, I would like to place an order.")}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-3 rounded-full bg-cream px-8 py-4 font-display font-black text-chili shadow-xl transition hover:-translate-y-0.5 hover:bg-white active:scale-95"
@@ -71,10 +71,10 @@ export default function Contact() {
 
       <footer className="border-t border-black/10 bg-cream-2/60 py-10 text-center text-sm text-ink/65">
         <div className="mx-auto max-w-7xl px-5">
-          <p className="font-display text-xl font-black text-leaf">Alsharif Pickles</p>
+          <p className="font-display text-xl font-black text-leaf">AL-SHARRYF Pickles</p>
           <p className="mt-1 font-medium">{SITE.tagline}.</p>
           <p className="mt-4 text-xs opacity-75">
-            © {new Date().getFullYear()} Alsharif Pickles. Handmade in Dar es Salaam, Tanzania. All rights reserved.
+            © {new Date().getFullYear()} AL-SHARRYF Pickles. Handmade in Dar es Salaam, Tanzania. All rights reserved.
           </p>
         </div>
       </footer>

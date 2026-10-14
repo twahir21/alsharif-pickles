@@ -153,7 +153,7 @@ const testimonials = [
     name: "Juma K.",
     location: "Mikocheni, Dar es Salaam",
     quote:
-      "I was skeptical about tamarind sauce until I tried Alsharif's Ukwaju. It transformed our family barbecue skewers completely.",
+      "I was skeptical about tamarind sauce until I tried AL-SHARRYF's Ukwaju. It transformed our family barbecue skewers completely.",
     favItem: "Ukwaju Tamarind Sauce",
   },
   {
@@ -302,7 +302,7 @@ export default function TasteGuide() {
                     <Magnetic>
                       <a
                         href={waLink(
-                          `Hello Alsharif Pickles, I saw your meal pairing guide and would like to order the ${activeDish.recommendedProduct} for our ${activeDish.dishName}.`
+                          `Hello AL-SHARRYF Pickles, I saw your meal pairing guide and would like to order the ${activeDish.recommendedProduct} for our ${activeDish.dishName}.`
                         )}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -334,7 +334,7 @@ export default function TasteGuide() {
               Ubora Wa Asili · Our Promise
             </p>
             <h3 className="mt-2 font-display text-2xl font-black text-leaf sm:text-3xl">
-              Why Tanzanian Kitchens Trust Alsharif
+              Why Tanzanian Kitchens Trust AL-SHARRYF
             </h3>
           </div>
 

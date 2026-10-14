@@ -25,13 +25,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Alsharif Pickles | Handmade Pickles & Chilli Sauces in Tanzania",
-    template: "%s | Alsharif Pickles",
+    default: "AL-SHARRYF Pickles | Handmade Pickles & Chilli Sauces in Tanzania",
+    template: "%s | AL-SHARRYF Pickles",
   },
   description: SITE.description,
   applicationName: SITE.name,
   keywords: [
-    "Alsharif Pickles",
+    "AL-SHARRYF Pickles",
     "Al Sharryf",
     "pickles Tanzania",
     "achari Tanzania",
@@ -56,20 +56,20 @@ export const metadata: Metadata = {
     locale: "en_TZ",
     url: SITE.url,
     siteName: SITE.name,
-    title: "Alsharif Pickles | The best appetite is at home",
+    title: "AL-SHARRYF Pickles | The best appetite is at home",
     description: SITE.description,
     images: [
       {
         url: "/images/og.jpg",
         width: 1080,
         height: 808,
-        alt: "Alsharif Pickles chilli sauce range: Ukwaju, Embe, Nanasi and Mbirimbi",
+        alt: "AL-SHARRYF Pickles chilli sauce range: Ukwaju, Embe, Nanasi and Mbirimbi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alsharif Pickles | Handmade Pickles & Chilli Sauces",
+    title: "AL-SHARRYF Pickles | Handmade Pickles & Chilli Sauces",
     description: SITE.description,
     images: ["/images/og.jpg"],
   },
@@ -114,7 +114,7 @@ const jsonLd = {
     },
     {
       "@type": "ItemList",
-      name: "Alsharif Pickles products",
+      name: "AL-SHARRYF Pickles products",
       itemListElement: products.flatMap((p, i) =>
         p.sizes.map((s, j) => ({
           "@type": "ListItem",
